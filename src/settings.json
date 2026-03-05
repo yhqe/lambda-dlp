@@ -1,0 +1,15 @@
+{
+    "audio_format": 0,
+    "audio_quality": 0,
+    "download_dir": "C:\\Users\\ian\\Downloads\\",
+    "embed_metadata": true,
+    "embed_subtitles": false,
+    "embed_thumbnail": false,
+    "extra_args": "--audio-format mp3 --audio-quality 320k --embed-metadata --embed-thumbnail --output \"%(playlist_index)02d - %(title)s.%(ext)s\" --parse-metadata \"playlist_index:%(track_number)s\"",
+    "mode": 1,
+    "output_template": "%(title)s.%(ext)s",
+    "restrict_filenames": false,
+    "sponsorblock": false,
+    "video_format": 0,
+    "ytdlp_path": ".\\build\\debug\\bin\\yt-dlp.exe"
+}
